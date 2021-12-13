@@ -27,6 +27,7 @@ Additional images in the [pictures](./pictures) directory
 | 5v buck converter | https://www.amazon.com/gp/product/B0758ZTS61/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1| 
 | JST Connectors | https://www.amazon.com/gp/product/B013WTV270/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1|
 | XT30 connectors | https://www.amazon.com/10Pairs-Upgrade-Connector-Female-Battery/dp/B08P5HVMYT/ref=sr_1_5?keywords=xt30&qid=1639361252&sr=8-5 |
+| Socket Switch (optional)| https://www.amazon.com/gp/product/B078PFFL46/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1| 
 
 
 ## 3d Printed Parts
@@ -48,4 +49,12 @@ Additional images in the [pictures](./pictures) directory
 
 The base plates are likely too large for your 3d printer. Print 2 halfs of the base then use glue and wooden toothpicks to hold together.
 
+4. Power
+
+I used a 750 watt HP power supply. However this is unnecesary since you can directly power intel nuc/ raspberry pi from the wall. 
+
+The HP switch and fan are dropped from 12v to ~5v using the buck converters. The buck converers are good for about 1 AMPS without a heatsync.
+
 ![](pictures/IMG_0827.jpeg)
+
+![](pictures/IMG_0865.jpeg)
